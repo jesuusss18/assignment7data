@@ -1,0 +1,22 @@
+Why is a tree appropriate for the doctor structure?
+    A tree is appropriate for the doctor reporting structure because it naturally represents
+    hierarchical relationships. Each node corresponds to a doctor, and child nodes represent direct 
+    reports. This structure makes it easy to visualize subordinates analyze management levels,like we have 
+    done in this assignment.A tree is different to a simple array or a list because it allows 
+    efficient traversal of individual branches and the entire hierarchy.
+
+When might a software engineer use preorder, inorder, or postorder traversals?
+    Software engineers might use different tree traversals depending on the task. Preorder
+    traversal visits a node before its children, which is useful when generating reports 
+    that include managers before their subordinates. Inorder traversal processes the left 
+    subtree, then the node, then the right subtree; in a binary search tree, this results 
+    in sorted data, useful for alphabetically or numerically ordered reports. Postorder 
+    traversal visits children before the node, which is helpful when making changes upward in a hierarchy.
+
+How do heaps help simulate real-time systems like emergency intake?
+    Heaps are particularly useful for simulating real-time systems like emergency patient intake. 
+    A min-heap allows the system to always access the patient with the highest urgency efficiently. 
+    When new patients arrive or are treated, the heap can quickly reorder itself to maintain priority order. 
+    This ensures that critical patients are served first, mimicking real-world triage in hospitals. 
+    Compared to other data structures, heaps provide a balance between fast insertion and removal while
+    maintaining priority, which is essential for responsive and fair emergency system management.
